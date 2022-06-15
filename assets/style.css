@@ -1,0 +1,130 @@
+@import url('https://fonts.googleapis.com/css2?family=JetBrains+Mono:wght@100&display=swap');
+*
+{
+  margin:  0;
+  padding: 0;
+}
+body 
+{
+  font-family:'JetBrains Mono', monospace;
+  background: #393E46;
+}
+header 
+{
+  text-align: center;
+  margin-top: 20px;
+  display: inline;
+  
+}
+#main-nav {
+  margin: 20px;
+  padding: 10px;
+  border-width: 2px 0;
+  border-color: #EEEE;
+  border-style: solid;
+  position: sticky;
+  top: 0;
+}
+#main-nav a{
+  text-decoration: none;
+  padding: 0 20px;
+  text-transform: uppercase;
+  color: #00ADB5;
+  font-size: 18px;
+  font-weight: bold;
+}
+header p{
+  font-style:oblique;
+  color:aliceblue;
+  font-size: 18px;
+}
+header h1{
+  font-style: italic;
+  color: #00ADB5;
+  font-size: 25px;
+}
+
+main {
+  clear: both;
+  display: flex;
+  padding: 10px 60px;
+}
+
+article {
+  width: 70%;
+  float: left;
+  padding: 20px;
+}
+article p{
+  color: #EEEE;
+  margin-top: 20px;
+}
+article h1{
+  color: #00ADB5;
+}
+section{
+  margin-top: 40px;
+  clear: both;
+  display: block;
+  color: #00ADB5;
+}
+ul li{
+  color: #EEEE;
+}
+
+aside{
+  width: 20%;
+  padding: 20px;
+  text-align: center;
+  float: right;
+}
+aside img {
+  width: 100px;
+  height: 110px;
+  border-radius: 50%;
+  margin-bottom: 10px;
+  -webkit-border-radius: 50%;
+  -moz-border-radius: 50%;
+  -ms-border-radius: 50%;
+  -o-border-radius: 50%;
+}
+#medsos-icons {
+  margin-bottom: 25px;
+
+}
+#medsos-icons i {
+  padding: 0 5px;
+  color: #EEEE;
+  font-size: 12px;
+
+}
+#Nama {
+  font-size: 15px;
+  font-weight: bold;
+}
+aside p{
+  font-size: 15px;
+  color: #EEEE;
+}
+footer{
+  width:  100%;
+  background: #00ADB5;
+  display: flex;
+  font-size: 15px;
+  color: aliceblue;
+}
+footer p{
+  padding: 0 60px;
+}
+
+
+
+
+
+@media screen and (max-width: 800px) {
+  
+  aside {
+    width: 100%;
+    padding: 0;
+  }
+}
